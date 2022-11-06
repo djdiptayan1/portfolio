@@ -1,12 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oleo+Script&display=swap');
 
 * {
   margin: 0px;
   padding: 0px;
 }
 
+body {
+  background-image: linear-gradient(to right, #c6ffdda7, #fbd886bb, #f7797d96);
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+}
+
 ul#nav {
-  height: 80px;
+  height: 60px;
   background-color: rgb(255, 200, 62);
   list-style-type: none;
   margin: 0px;
@@ -22,11 +32,11 @@ li.navigation a {
   display: flex;
   justify-content: space-evenly;
   font-size: 25px;
-  margin: 15px;
+  margin: 8px;
   text-align: center;
   color: rgb(0, 0, 0);
   text-align: center;
-  padding: 10px 20px;
+  padding: 8px 20px;
   text-decoration: none;
 
 }
@@ -37,8 +47,12 @@ li.navigation a:hover {
   color: aliceblue
 }
 
+h6 {
+  color: white;
+}
+
 .info {
-  background-color: rgb(196, 230, 230);
+  background-color: rgba(153, 212, 212, 0.455);
   height: 100vh;
   display: flex;
   justify-content: space-around;
@@ -73,44 +87,114 @@ li.navigation a:hover {
   justify-content: space-around;
   height: 100vh;
 }
-
+#hid{
+  color: rgba(240, 248, 255, 0);
+}
 #aboutme {
-  margin-top: 20px;
+  margin-top: 60px;
   text-align: left;
 }
 
 #AboutMe {
-
+  margin-bottom: 30px;
   text-align: center;
   font-size: 45px;
   font-family: monospace;
 }
 
 p {
+  padding: 20px;
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 40px;
+}
+
+#services {
+  text-align: center;
+  margin: 100px;
+  font-family: monospace;
+  font-size: 35px;
+}
+
+#srow {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 4px;
+  margin: 20px;
+}
+
+.serviceimg {
+  width: 150px;
 }
 
 #interest {
-  margin: 20px;
   text-align: center;
+  margin-top: 100px;
   font-family: monospace;
   font-size: 35px;
+}
+
+#row {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 4px;
+  margin: 20px;
+}
+
+#column {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 4px;
+  margin: 20px;
+}
+
+#column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+#interest {
+  background-color: rgba(250, 255, 119, 0.36);
+  width: auto;
+}
+
+.interestimg {
+  width: 120px;
+}
+
+.interestimg:hover {
+  transform: scale(0.2);
+  transition: 0.5s;
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+.text {
+  font-family: 'Oleo Script', cursive;
+  font-size: 15px;
 }
 
 #social {
-  margin: 20px;
+  margin-top: 100px;
   font-size: 35px;
   font-family: monospace;
   text-align: center;
-  background-color: beige;
-  border-radius: 20px;
 }
 
 #socials {
+  margin-top: 50px;
   list-style-type: none;
-  align-content: center;
   display: flex;
   justify-content: space-evenly;
-  flex-direction: row
+  padding: 0 4px;
+  margin: 20px;
+}
+
+#social li:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+#copywrite {
+  font-size: 20px;
+
 }
