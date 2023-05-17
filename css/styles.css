@@ -17,7 +17,7 @@ nav {
 
 ul#nav {
   height: 60px;
-  background-color: rgb(255, 200, 62);
+  background-color: rgb(243, 223, 44);
   list-style-type: none;
   margin: 0px;
   padding: 0px;
@@ -25,7 +25,7 @@ ul#nav {
 }
 
 li.navigation {
-  float: left;
+  float: right;
 }
 
 li.navigation a {
@@ -42,9 +42,10 @@ li.navigation a {
 }
 
 li.navigation a:hover {
+  border-radius: 20px;
   cursor: pointer;
   background-color: #111;
-  color: aliceblue
+  color: aliceblue;
 }
 
 h6 {
@@ -87,9 +88,11 @@ h6 {
   justify-content: space-around;
   height: 100vh;
 }
-#hid{
+
+#hid {
   color: rgba(240, 248, 255, 0);
 }
+
 #aboutme {
   margin-top: 60px;
   text-align: left;
@@ -184,7 +187,7 @@ p {
   margin-top: 50px;
   list-style-type: none;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   padding: 0 4px;
   margin: 20px;
 }

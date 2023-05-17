@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+.logo img {
+  width: 60px;
+  height: 60px;
+}
+.flx {
+  display: flex;
+}
+span {
+  color: black;
+  font-size: 40px;
+}
+li {
+  list-style-type: none;
+  margin: 0 30px;
+  font-weight: 550;
+  font-size: 20px;
+  color: gray;
+  cursor: pointer;
+}
+
+li:hover,
+.active {
+  color: black;
+}
+.nav-links {
+  position: absolute;
+  right: 30px;
+}
+.banner-section {
+  margin-top: 20px;
+  width: 100%;
+  height: 100vh;
+}
+.right-side {
+  background-image: url("assets/gradient.jpg");
+  background-size: cover;
+  width: 63%;
+  position: absolute;
+  border-radius: 50px;
+  padding: 50px;
+  height: 75%;
+}
+.right-side h1 {
+  font-size: 60px;
+  /* font-weight: 500; */
+}
+.right-side p {
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 30px;
+}
+.left-side img {
+  width: 25%;
+  height: 88%;
+  object-fit: cover;
+  border-radius: 50px;
+  position: absolute;
+  right: 20px;
+  top: 105px;
+}
+.icons {
+  position: absolute;
+  bottom: 50px;
+  left: 100px;
+}
+.btn {
+  background-color: black;
+  color: white;
+  padding: 10px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.icons img {
+  margin: 0 5px;
+  cursor: pointer;
+}
+.icons img:hover,
+.icons img:hover {
+  transform: translateY(-10px);
+  transition: 0.3s;
+}
+.layout {
+  margin-top: 50px;
+  width: 90%;
+  height: 30vh;
+  background-image: url("assets/gradient3.jpg");
+  background-position: top;
+  border-radius: 50px;
+  background-color: aqua;
+  padding: 50px;
+}
+.layout h1 {
+  font-size: 60px;
+}
+.layout p {
+  margin: 30px 0;
+}
+.icons2 {
+  margin-top: 50px;
+}
+.icons2 img:hover {
+  transform: translateY(-10px);
+  transition: 0.3s;
+}
+::-webkit-scrollbar {
+  width: 0.5rem;
+  background-color: black;
+}
+::-webkit-scrollbar-thumb {
+  background-color: grey;
+  padding: 0 3px;
+  border-radius: 0.5rem;
+}
